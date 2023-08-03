@@ -1,0 +1,17 @@
+.nav-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.h1{
+    text-align: left;
+    margin: 1rem;
+}
+.icon{
+    margin: 1rem;
+    font-size: 2rem;
+}

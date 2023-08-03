@@ -1,0 +1,44 @@
+.experience-container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGp-zsVAImnLrCSjzH3tyEiqVxqmQJQno0RHJnBmY7VoFwqtsXywXjLr_WdZCwn158TM&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.experience-list{
+    padding-top: 1rem;
+    text-align: left;
+    width: 80%;
+}
+
+.experience-list h3{
+    font-size: 2rem;
+}
+
+.experience-list ul{
+    list-style-type:armenian;
+    padding-top: 1rem;
+
+}
+
+.experience-list li{
+    font-size: 1.3rem;
+    padding-top:.5rem;
+}
+.experience-list p{
+    font-weight: bold;
+}
+
+.experience-image img {
+    margin-top: 18rem;
+    margin-right: 7rem;
+    height: 5rem;
+}
+
+.experience-title{
+    margin: 1.5rem
+}

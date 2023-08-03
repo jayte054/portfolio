@@ -1,0 +1,34 @@
+.intro{
+    background-image:url(https://wallpaperaccess.com/full/5651978.png);
+    background-size: cover;
+    background-position: center;
+    width: 98%;
+    height: 40rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.intro-container{
+    padding-top: 0.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.1rem;
+}
+
+.contact-details ul{
+    list-style-type: none;
+}
+.intro-list{
+    text-align: left;
+}
+
+img{
+    border-radius: 1rem;
+    border-color: black;
+    width: 16rem;
+}
