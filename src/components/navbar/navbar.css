@@ -1,4 +1,4 @@
-.nav-container{
+.nav-container {
     background-color: black;
     color: white;
     display: flex;
@@ -7,11 +7,38 @@
     margin: 1rem;
 }
 
-.h1{
+.h1 {
     text-align: left;
     margin: 1rem;
 }
-.icon{
+
+.icon {
     margin: 1rem;
     font-size: 2rem;
+}
+
+.burger-icon {
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .h1 {
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .icon {
+        margin: 0.5rem; /* Adjust margin for smaller screens */
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .burger-icon {
+        margin: 0.5rem auto; /* Centered margin */
+    }
 }

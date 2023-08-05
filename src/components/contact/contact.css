@@ -1,0 +1,65 @@
+.contact-container {
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.contact-input input {
+    border-radius: 1rem;
+    border-color: aquamarine;
+    width: 20%; /* Make inputs full width on smaller screens */
+}
+
+.string {
+    height: 2rem;
+    width: 20%; /* Make inputs full width on smaller screens */
+    text-indent: 1rem;
+}
+
+.contact-message {
+    width: 40%; /* Make textarea full width on smaller screens */
+    height: 12rem;
+    text-indent: 1rem;
+    text-justify: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-color: aquamarine;
+}
+
+.contact-message::placeholder {
+    position: absolute;
+    padding-left: 1rem;
+    top: 1rem;
+}
+
+.button {
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    width: 60%; /* Make button full width on smaller screens */
+    height: 2rem;
+    border-color: aquamarine;
+}
+
+.contact-input p {
+    font-size: 1.4rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .contact-container {
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+
+    .button {
+        margin-top: 0.5rem; /* Adjust margin for smaller screens */
+        width: 40%;
+    }
+    
+    .contact-message{
+        width: 90%;
+    }
+
+    .contact-input input{
+        width: 70%
+    }
+}

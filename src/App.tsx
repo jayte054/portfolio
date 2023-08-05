@@ -1,16 +1,22 @@
 import React from 'react';
-import './App.css';
-import { Navbar } from './components/navbar/navbar';
-import { Intro } from './components/Intro/intro';
-import { Experience } from './components/Experience/experience';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Homepage } from './pages/homepage';
+import { Authentication } from './authentication/auth';
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Intro />
-      <Experience />
-    </div>
+    <React.Fragment>
+     {/* <Router>
+        <Routes>
+           <Route path = "/" element = {<Homepage />} />
+           <Route path = "/auth" element = {<Authentication />} />
+         </Routes>
+       </Router> */}
+       <div>
+       <Homepage />
+       </div>
+    </React.Fragment>
   );
 }
 

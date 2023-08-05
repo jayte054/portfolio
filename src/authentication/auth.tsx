@@ -1,8 +1,9 @@
 import { useState } from "react"
 
-export const Auth = () => {
+export const Authentication = () => {
 const [email, setEmail] = useState<string>("")
 const [password, setPassword] = useState<string>("")
+
     return (
         <div>
             <h2>Sign up</h2>
