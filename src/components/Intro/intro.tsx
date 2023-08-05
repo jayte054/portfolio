@@ -10,7 +10,7 @@ import pic from "../../images/Screenshot 2023-08-02 at 16.30.57.png"
 
 export const Intro = () => {
 
-    // const resume = "http://localhost:3001/Justin's_Resume.pdf"
+    const resume = "http://localhost:3001/Justin's_Resume.pdf"
 
     const downloadFile = (url: string | undefined | any) => {
         const filename = url.split("/").pop()
@@ -52,10 +52,10 @@ export const Intro = () => {
                            <li style={{paddingTop:"1rem", listStyleType: "none"}}><strong>Phone Number:</strong> +2348134490566</li>
                                 <li style={{paddingTop:"1rem", listStyleType: "none"}}><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/justin-ewelike-445156a7/">Justin's Linkedin</a></li>
                                 <li style={{paddingTop:"1rem", listStyleType: "none"}}><strong>Github:</strong> <a href="https://github.com/jayte054"> Justin's Github</a></li>
-                                {/* <button onClick={() => {downloadFile(resume)}}
+                                <button onClick={() => {downloadFile(resume)}}
                                         style ={{marginTop: "1rem", height:"2rem", borderRadius: "1rem" }}>
                                     Download Resume
-                                </button> */}
+                                </button>
                         </div>
                     </div>
             </div>

@@ -1,21 +1,12 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Homepage } from './pages/homepage';
-import { Authentication } from './authentication/auth';
-
+import React from "react";
+import { Homepage } from "./pages/homepage";
 
 function App() {
   return (
     <React.Fragment>
-     {/* <Router>
-        <Routes>
-           <Route path = "/" element = {<Homepage />} />
-           <Route path = "/auth" element = {<Authentication />} />
-         </Routes>
-       </Router> */}
-       <div>
-       <Homepage />
-       </div>
+      <div>
+        <Homepage />
+      </div>
     </React.Fragment>
   );
 }
