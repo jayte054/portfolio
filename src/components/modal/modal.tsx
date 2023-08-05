@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+//import { Link } from "react-router-dom"
 
 export const BurgerMenu = (props: {
         displayBurgerMenu: any,
@@ -23,9 +23,9 @@ export const BurgerMenu = (props: {
                 {/* <Link className="link" to ="/auth">
                     Auth
                 </Link> */}
-                <Link className="link" to ="/auth">
+                {/* <Link className="link" to ="/auth">
                     Download Resume
-                </Link>
+                </Link> */}
             </div>
         </div>
     )
