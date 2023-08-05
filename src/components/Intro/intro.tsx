@@ -10,7 +10,7 @@ import pic from "../../images/Screenshot 2023-08-02 at 16.30.57.png"
 
 export const Intro = () => {
 
-    const resume = "http://localhost:3001/Justin's_Resume.pdf"
+    const resume = "https://https://portfolio-two-hazel-71.vercel.app//Justin's_Resume.pdf"
 
     const downloadFile = (url: string | undefined | any) => {
         const filename = url.split("/").pop()
