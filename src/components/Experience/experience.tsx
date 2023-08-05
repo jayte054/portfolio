@@ -5,7 +5,7 @@ export const Experience = () => {
         <div>
             <div className="experience-container">
             <div className="experience-title">
-            <h1 style={{textAlign: "center"}}>My Work Experience</h1>
+            <h1 style={{textAlign: "center", paddingTop:"1rem"}}>My Work Experience</h1>
             <ul className="experience-list">
                     <h3>Decagon</h3>
                          <p>Full Stack Software Developer</p>
