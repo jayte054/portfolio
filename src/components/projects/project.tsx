@@ -19,6 +19,9 @@ export const Project = () => {
                     </p>
                     <span> <strong style={{paddingTop:"0.1rem"}}>Technologies used include;</strong> </span>
                         <p>NestJs, ReactJs, Postgres, </p>
+                        <span> <strong style={{paddingTop:"0.1rem"}}>Status; </strong> 
+                                     Deployed ➡️ <a href="https://shoppingmanager.vercel.app" target= "_blank" rel="noreferrer">Shopping manager</a>
+                        </span>
                 </div>
                 <div className="shopping-img">
                 <span><img src= {shoppingpic} alt="shopping manager pic" /></span>
