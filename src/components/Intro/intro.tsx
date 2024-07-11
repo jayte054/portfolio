@@ -50,7 +50,7 @@ export const Intro = () => {
                         </div>
                         <div>
                            <span> <img src = {pic} alt="justin's pic" /> </span>
-                           <li style={{paddingTop:"1rem", listStyleType: "none"}}><strong>Phone Number:</strong> +2348134490566</li>
+                           <li style={{paddingTop:"1rem", listStyleType: "none"}}><strong>Phone Number:</strong> +2348128672710</li>
                                 <li style={{paddingTop:"1rem", listStyleType: "none"}}><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/justin-ewelike-445156a7/">Justin's Linkedin</a></li>
                                 <li style={{paddingTop:"1rem", listStyleType: "none"}}><strong>Github:</strong> <a href="https://github.com/jayte054"> Justin's Github</a></li>
                                 <button onClick={() => {downloadFile(resume)}}
