@@ -11,6 +11,7 @@ export const Experience = () => {
             <ul className="experience-list">
               <h3>Instill Education</h3>
               <p>Full Stack Software Developer</p>
+              <p>NestJs, Graphql, ReactJs, Mongodb</p>
               <div className="decagon-container">
                 <div className="decagon">
                   <li>
@@ -47,6 +48,7 @@ export const Experience = () => {
               </div>
               <h3>Decagon</h3>
               <p>Full Stack Software Developer</p>
+              <p>ExpressJs, ReactJs, Mongodb, Postgres</p>
               <div className="decagon-container">
                 <div className="decagon">
                   <li>
@@ -75,6 +77,7 @@ export const Experience = () => {
 
               <h3>BEDC Electricity Plc</h3>
               <p>Management Officer(2017-2022)</p>
+              <p>ReactJs </p>
               <div className="bedc-container">
                 <div className="bedc">
                   <li>
