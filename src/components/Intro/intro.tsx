@@ -6,6 +6,7 @@ import {BiLogoReact} from "react-icons/bi"
 import {BiLogoGithub} from "react-icons/bi"
 import {TbBrandJavascript} from "react-icons/tb"
 import {SiNestjs} from "react-icons/si"
+import { SiGraphql, SiSentry } from "react-icons/si";
 import pic from "../../images/Screenshot 2023-08-02 at 16.30.57.png"
 
 export const Intro = () => {
@@ -38,11 +39,11 @@ export const Intro = () => {
                                 <li><strong>Full Name:</strong> Justin Anayo Ewelike</li>
                                 <li style={{paddingTop:"1rem"}}><strong>Stack:</strong> NodeJs</li>
                                 <li style={{paddingTop: "1rem"}}><strong>Technologies;</strong>  </li> <br />
-                                    <li style={{paddingLeft: "1.5rem"}}><strong>Backend:</strong> ExpressJs<TbBrandJavascript />, NestJs<SiNestjs /></li><br />
+                                    <li style={{paddingLeft: "1.5rem"}}><strong>Backend:</strong> ExpressJs<TbBrandJavascript />, NestJs<SiNestjs />, GraphQl<SiGraphql /></li><br />
                                     <li style={{paddingLeft: "1.5rem"}}><strong>Frotend:</strong> ReactJs<BiLogoReact /></li> <br />
                                     <li style={{paddingLeft: "1.5rem"}}><strong>Version Control:</strong> Github<BiLogoGithub /></li> <br />
                                     <li style={{paddingLeft: "1.5rem"}}><strong>Database:</strong> Mongodb<BiLogoMongodb />, Postgres<BiLogoPostgresql /></li> <br />
-                                    <li style={{paddingLeft: "1.5rem"}}><strong>Third Party Apps:</strong> Firebase <BiLogoFirebase style={{fontSize : "1.5rem"}}/> </li> <br />
+                                    <li style={{paddingLeft: "1.5rem"}}><strong>Third Party Apps:</strong> Firebase <BiLogoFirebase style={{fontSize : "1.5rem"}}/>, Sentry <SiSentry /> </li> <br />
                                 <li><strong>Email:</strong> ewelikejustin@gmail.com</li>
                                 <li style ={{paddingTop: "1rem"}}><strong>Education:</strong> B.Eng(Electrical and Electronics Engineering)</li>
                             </ul>
