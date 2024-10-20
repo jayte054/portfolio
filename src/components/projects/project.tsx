@@ -3,6 +3,7 @@ import smoozepic from "../../images/Screenshot 2023-08-03 at 18.41.02.png"
 import foodpic from "../../images/Screenshot 2023-08-03 at 18.48.08.png"
 import shoppingpic from "../../images/Screenshot (15).png"
 import blogpic from "../../images/blog_image.png";
+import shamzbridePic  from "../../images/Screenshot 2024-10-20 at 07.05.30.png";
 
 export const Project = () => {
 
@@ -14,11 +15,44 @@ export const Project = () => {
             <ul>
               <div className="shopping-container">
                 <div className="shopping">
-                  <li>AI Analytics  Blog Backend project </li>
+                  <li>HR Landing Page </li>
                   <p>
-                    The blog project was built to enable ease of 
-                    use for clients nd ease of oversight from the admin
-                    with the necessary authorizations were needed.
+                    A human resource landing page detailing services rendered
+                    and advantages of working with the company
+                  </p>
+                  <span>
+                    {" "}
+                    <strong style={{ paddingTop: "0.1rem" }}>
+                      Technologies used include;
+                    </strong>{" "}
+                  </span>
+                  <p>ReactJs </p>
+                  <span>
+                    {" "}
+                    <strong style={{ paddingTop: "0.1rem" }}>Status; </strong>
+                    Deployed ➡️{" "}
+                    <a
+                      href="https://hr-landing-page-v155.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Shamzbrige Consult HR Landing Page
+                    </a>
+                  </span>
+                </div>
+                <div className="shopping-img">
+                  <span>
+                    <img src={shamzbridePic} alt="AI Blog pic" />
+                  </span>
+                </div>
+              </div>
+              <div className="shopping-container">
+                <div className="shopping">
+                  <li>AI Analytics Blog Backend project </li>
+                  <p>
+                    The blog project was built to enable ease of use for clients
+                    nd ease of oversight from the admin with the necessary
+                    authorizations were needed.
                   </p>
                   <span>
                     {" "}
@@ -32,7 +66,7 @@ export const Project = () => {
                     <strong style={{ paddingTop: "0.1rem" }}>Status; </strong>
                     Deployed ➡️{" "}
                     <a
-                      href= "https://ai-blog-assessment-1.onrender.com/api"
+                      href="https://ai-blog-assessment-1.onrender.com/api"
                       target="_blank"
                       rel="noreferrer"
                     >

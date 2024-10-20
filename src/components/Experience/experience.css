@@ -1,5 +1,5 @@
 .experience-container {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGp-zsVAImnLrCSjzH3tyEiqVxqmQJQno0RHJnBmY7VoFwqtsXywXjLr_WdZCwn158TM&usqp=CAU);
+    background-color: rgb(219, 221, 222);
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
@@ -8,6 +8,7 @@
     /* display: flex;
     flex-direction: row;
     justify-content: space-between; */
+    /* color:rgb(219, 221, 222) */
 }
 
  .experience-list {
