@@ -18,7 +18,8 @@ export const Project = () => {
                   <li>HR Landing Page </li>
                   <p>
                     A human resource landing page detailing services rendered
-                    and advantages of working with the company
+                    and advantages of working with the company. Built to be both 
+                    engaging and responsive.
                   </p>
                   <span>
                     {" "}
