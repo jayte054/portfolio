@@ -26,7 +26,6 @@ export const Intro = () => {
     
     return (
       <div className="intro">
-        https://drive.google.com/file/d/142Tn4fNbAWc8ESfnIAIdHz3YlIHMd6zG/view
         <div className="intro-container">
           <h2 style={{ textAlign: "center", color: "white" }}>
             Hello there,
