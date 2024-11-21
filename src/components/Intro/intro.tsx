@@ -12,7 +12,7 @@ import pic from "../../images/Screenshot 2023-08-02 at 16.30.57.png"
 export const Intro = () => {
 
     const resume =
-      "https://drive.google.com/file/d/142Tn4fNbAWc8ESfnIAIdHz3YlIHMd6zG/view";
+      "https://drive.google.com/file/d/1ERqiYhMxNWxXkPmH8hPWq-9AucRyWm77/view";
 
     const downloadFile = (url: string | undefined | any) => {
         const filename = url.split("/").pop()
