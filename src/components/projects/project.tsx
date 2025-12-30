@@ -3,7 +3,7 @@ import smoozepic from "../../images/Screenshot 2023-08-03 at 18.41.02.png"
 import foodpic from "../../images/Screenshot 2023-08-03 at 18.48.08.png"
 import shoppingpic from "../../images/Screenshot (15).png"
 import blogpic from "../../images/blog_image.png";
-import shamzbridePic  from "../../images/Screenshot 2024-10-20 at 07.05.30.png";
+import shamzbridePic from "../../images/Screenshot 2025-12-30 at 10.54.56.png";
 
 export const Project = () => {
 
@@ -15,11 +15,10 @@ export const Project = () => {
             <ul>
               <div className="shopping-container">
                 <div className="shopping">
-                  <li>HR Landing Page </li>
+                  <li>Confectionary Web Application </li>
                   <p>
-                    A human resource landing page detailing services rendered
-                    and advantages of working with the company. Built to be both 
-                    engaging and responsive.
+                    A Confectionary web application built to to manage, sell,
+                    analyze confectionary products
                   </p>
                   <span>
                     {" "}
@@ -27,23 +26,23 @@ export const Project = () => {
                       Technologies used include;
                     </strong>{" "}
                   </span>
-                  <p>ReactJs </p>
+                  <p>Nestjs, ReactJs, Postgres </p>
                   <span>
                     {" "}
-                    <strong style={{ paddingTop: "0.1rem" }}>Status; </strong>
+                    <strong style={{ paddingTop: "0.1rem" }}>Status: </strong>
                     Deployed ➡️{" "}
                     <a
-                      href="https://hr-landing-page-v155.vercel.app/"
+                      href="https://moonbeam-gules.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Shamzbrige Consult HR Landing Page
+                      Moonbeam Cakes
                     </a>
                   </span>
                 </div>
                 <div className="shopping-img">
                   <span>
-                    <img src={shamzbridePic} alt="AI Blog pic" />
+                    <img src={shamzbridePic} alt="Moonbeam dashboard pic" />
                   </span>
                 </div>
               </div>

@@ -5,14 +5,14 @@ import {BiLogoMongodb} from "react-icons/bi"
 import {BiLogoReact} from "react-icons/bi"
 import {BiLogoGithub} from "react-icons/bi"
 import {TbBrandJavascript} from "react-icons/tb"
-import {SiNestjs} from "react-icons/si"
+import {SiFastapi, SiNestjs, SiNextdotjs} from "react-icons/si"
 import { SiGraphql, SiSentry } from "react-icons/si";
 import pic from "../../images/Screenshot 2023-08-02 at 16.30.57.png"
 
 export const Intro = () => {
 
     const resume =
-      "https://drive.google.com/file/d/1ERqiYhMxNWxXkPmH8hPWq-9AucRyWm77/view";
+      "https://drive.google.com/file/d/13nj06BHsqjjIFnhsy8A8TfBe5sSCZhD8/view?usp=drive_link";
 
     const downloadFile = (url: string | undefined | any) => {
         const filename = url.split("/").pop()
@@ -27,14 +27,12 @@ export const Intro = () => {
     return (
       <div className="intro">
         <div className="intro-container">
-          <h2 style={{ textAlign: "center", color: "white" }}>
+          <h2 style={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center", color: "white",  margin: "0 auto" }}>
             Hello there,
-            <br /> interested in the services of a full stack developer, <br />
+             interested in the services of a full stack developer, 
             capable of building scalable software products
-            <br /> with a strong ownership mindset and excellent collaboration
-            skills
-            <br />
-            look no futher.
+             with a strong ownership mindset and excellent collaboration
+            skills look no futher.
           </h2>
         </div>
         <div>
@@ -56,12 +54,13 @@ export const Intro = () => {
                   <strong>Backend:</strong> ExpressJs
                   <TbBrandJavascript />, NestJs
                   <SiNestjs />, GraphQl
-                  <SiGraphql />
+                  <SiGraphql />, FastApi
+                  <SiFastapi />
                 </li>
                 <br />
                 <li style={{ paddingLeft: "1.5rem" }}>
                   <strong>Frotend:</strong> ReactJs
-                  <BiLogoReact />
+                  <BiLogoReact /> Nextjs<SiNextdotjs />
                 </li>{" "}
                 <br />
                 <li style={{ paddingLeft: "1.5rem" }}>
@@ -78,7 +77,7 @@ export const Intro = () => {
                 <li style={{ paddingLeft: "1.5rem" }}>
                   <strong>Third Party Apps:</strong> Firebase{" "}
                   <BiLogoFirebase style={{ fontSize: "1.5rem" }} />, Sentry{" "}
-                  <SiSentry />{" "}
+                  <SiSentry />{" "} Paystack, Fincra
                 </li>{" "}
                 <br />
                 <li>
